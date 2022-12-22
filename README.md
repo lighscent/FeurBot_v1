@@ -33,6 +33,7 @@ Start bot
 ## Links
 
  - [Discord Support](https://discord.gg/nitromask)
+ - [Add Me (Free)](https://discord.com/api/oauth2/authorize?client_id=842873773257916427&permissions=8&scope=bot%20applications.commands)
 
 
 
