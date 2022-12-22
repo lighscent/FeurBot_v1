@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client({
-    intents: 3276799
+    intents: 3276799,
+    partials: ["MESSAGE"]
 });
 
 const login = require("./utils/login.json");
@@ -23,7 +24,7 @@ for (const file of eventsFiles) {
     if (event.once) {
         client.once(event.name, (...args) => event.execute(...args));
     } else {
-        client.on(event.name, (...args) => event.execute(args));
+        client.on(event.name, (...args) => event.execute(...args));
     }
 }
 

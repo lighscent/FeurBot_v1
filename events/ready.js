@@ -18,8 +18,8 @@ module.exports = {
 
         const statut = [
             () => `.gg/nitromask`,
-            () => `djs ${package.dependencies["discord.js"]}`,
-            () => `ItsAzukio`
+            () => `${client.guilds.cache.reduce((acc, guild) => acc + guild.memberCount, 0)} Users`,
+            () => `${client.guilds.cache.size} Serveurs`
         ]
         let i = 0
         setInterval(() => {
