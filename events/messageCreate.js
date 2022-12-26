@@ -14,19 +14,15 @@ module.exports = {
             if (message.content.toLowerCase().includes("quoi")) {
                 message.reply('Feur')
                 count = db.set(`guild_${message.guild.id}`, { number: count.number + 1, guild: message.guild.name, id: message.guild.id });
-                console.log(count)
             } else if (message.content.toLowerCase().includes("pk")) {
                 message.reply('Feur')
                 count = db.set(`guild_${message.guild.id}`, { number: count.number + 1, guild: message.guild.name, id: message.guild.id });
-                console.log(count)
             } else if (message.content.toLowerCase().includes("koi")) {
                 message.reply('Feur')
                 count = db.set(`guild_${message.guild.id}`, { number: count.number + 1, guild: message.guild.name, id: message.guild.id });
-                console.log(count)
             } else if (message.content.toLowerCase().includes("qwa")) {
                 message.reply('Feur')
                 count = db.set(`guild_${message.guild.id}`, { number: count.number + 1, guild: message.guild.name, id: message.guild.id });
-                console.log(count)
             }
         }
     }
