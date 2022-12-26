@@ -18,6 +18,7 @@
   "homepage": "https://github.com/ItsAzukio/FeurBot#readme",
   "dependencies": {
     "discord.js": "^13.8.1",
-    "fs": "^0.0.1-security"
+    "fs": "^0.0.1-security",
+    "quick.eco": "^2.0.4"
   }
 }

@@ -10,6 +10,10 @@ const fs = require("fs");
 
 client.commands = new Discord.Collection();
 
+const Eco = require("quick.eco");
+client.Eco = new Eco.Manager();
+client.db = Eco.db;
+
 
 //--------------------------------------------------\\
 //--------------------------------------------------\\
