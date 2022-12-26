@@ -6,14 +6,13 @@ Un bot qui répondra Feur à tout message contenant "quoi" et de futur ajouts se
 
 ## Features
 
-- Auto reply "Feur"
-- Counter reply "Feur"
+- Auto reply "Feur" if message content "quoi, koi, qwa, pk"
+- Count "Feur" on ping FeurBot
 
 
 ## Next features
 
 - Auto create "channel-logs" on guildCreate
-- Command Leaderboard
 
 
 ## Installation
