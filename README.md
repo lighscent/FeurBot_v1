@@ -6,13 +6,14 @@ Un bot qui répondra Feur à tout message contenant "quoi" et de futur ajouts se
 
 ## Features
 
-- Auto reply "feur"
+- Auto reply "Feur"
+- Counter reply "Feur"
 
 
 ## Next features
 
 - Auto create "channel-logs" on guildCreate
-- Leaderboard
+- Command Leaderboard
 
 
 ## Installation
