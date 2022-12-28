@@ -17,7 +17,7 @@ module.exports = {
 
 
         const statut = [
-            () => `.gg/nitromask`,
+            () => `.gg/maskfr`,
             () => `${client.guilds.cache.reduce((acc, guild) => acc + guild.memberCount, 0)} Users`,
             () => `${client.guilds.cache.size} Serveurs`
         ]
