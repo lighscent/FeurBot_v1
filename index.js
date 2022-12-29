@@ -5,7 +5,6 @@ const client = new Discord.Client({
 });
 
 const login = require("./utils/login.json");
-const config = require("./utils/config.json");
 
 const fs = require("fs");
 
